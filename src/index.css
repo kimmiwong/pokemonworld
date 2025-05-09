@@ -38,8 +38,6 @@ body {
   overflow-y: auto;
   margin: 0;
   padding: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -173,4 +171,11 @@ button:hover {
   justify-content: center;
   background-color: white;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  html, body {
+    overflow-y: auto;
+    height: auto;
+  }
 }
