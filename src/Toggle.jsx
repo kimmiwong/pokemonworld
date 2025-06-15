@@ -22,7 +22,7 @@ return (
     height: '100%',
     top: 0,
     left: 0,
-    backgroundColor: 'rgba(247, 186, 186, 0.4)', // overlay color
+    backgroundColor: 'rgba(247, 186, 186, 0.4)',
     backgroundBlendMode: theme === 'light'? 'screen' : 'darken',
 
   }}>

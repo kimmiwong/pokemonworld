@@ -1,4 +1,3 @@
-import { ThemeContext } from '../src/context/ThemeContext';
 import Toggle from '../src/Toggle';
 import pokedexImg from '../src/assets/Pokedex_logo.png'
 import {useState, useEffect, useContext} from 'react'

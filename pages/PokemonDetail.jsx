@@ -1,4 +1,3 @@
-import { ThemeContext } from '../src/context/ThemeContext';
 import { useState, useEffect, useContext } from 'react'
 import '../src/App.css'
 import { useParams } from 'react-router-dom';
@@ -7,7 +6,6 @@ import { NavLink } from 'react-router-dom';
 import Toggle from '../src/Toggle';
 
 function PokemonDetail () {
-    // const [selectedUrl, setSelectedUrl] = useState('')
     const [ability, setAbility] = useState([])
     const [height, setHeight] = useState('')
     const [types, setTypes] = useState([])
